@@ -2,9 +2,8 @@
 
 # Project Goals:
 
-- Find drivers for customer churn at Telco. Why are customers churning?
-- Construct a ML classification model that accurately predicts customer churn.
-- Present your process and findings to the lead data scientist.
+- Find out why customers are churning at Telco.
+- Construct classification models to predict customer churn.
 
 # Initial questions of the data:
  - Q1: Does contract type affect whether someone churns?
