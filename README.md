@@ -6,7 +6,7 @@
 - Construct a ML classification model that accurately predicts customer churn.
 - Present your process and findings to the lead data scientist.
 
-# Initial hypotheses and/or questions you have of the data, ideas
+# Initial questions of the data:
  - Q1: Does contract type affect whether someone churns?
  - Q2: Are high monthly charges causing customers to churn?
  - Q3: Is a customer having fiber optic internet related to a customer churning?
@@ -31,7 +31,7 @@
 ## Data Dictionary
 | Feature | Definition | 
 | :- | :- |
-| <font color='red'>Monthly Charges</font> | Amount a customer is charged monthly |
+| Monthly Chaerge | Amount a customer is charged monthly |
 | Total Charges | Cumulative amount a customer has paid |
 | Gender Male | If a customer is male or female, 0 = Female, 1 = Male |
 | Has Partner | If a customer has a partner, 0 = No, 1 = Yes |
@@ -46,18 +46,16 @@
 | Has Device Protection | If a customer has device protection, 0 = No, 1 = Yes |
 | Has Dependents | If a customer has dependents, 0 = No, 1 = Yes |
 | Has Multiple Lines | If a customer has multiple lines, 0 = No, 1 = Yes |
-| <font color='red'>Contract</font> | Type of contract customer has, 0 = Month-to-month, 1 = One year, 2 = Two year|
+| Contract | Type of contract customer has, 0 = Month-to-month, 1 = One year, 2 = Two year|
 | Internet Service | Type of Internet Service customer has, 0 = No internet service, 1 = DSL, 2 = Fiber optic |
 | Has Automatic Payment | If a customer has automatic payment, 0 = No, 1 = Yes |
-| Churn (Target) | If a customer has churned, False = No, True = Yes |
+| Churn (Target Variable) | If a customer has churned, False = No, True = Yes |
 ---
 
 ## To Reproduce Findings:
 -	Clone this repository (telco-classification-project)
 -	Create env file with username, host, password credentials to access Codeup mySQL telco-churn database.
 
-
-## key findings, recommendations, and takeaways from your project
 
 ## Key Findings:
 -	Month-to-month contract, higher monthly payments, fiber optic internet, and manual payment type were among the biggest causes of churn.
